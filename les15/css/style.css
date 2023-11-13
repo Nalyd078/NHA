@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(192, 192, 192, 0.568);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}
+
+header, footer {
+    height: 100px;
+    background-color: #b32f1b8e;
+    padding: 10px;
+    margin: 0 -10%;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+h2 {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px;
+}
+
+nav {
+    margin-top: 25px;
+    padding: 10px;
+}
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    background-color: #b32f1bce;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px gray;
+    padding: 10px 20px;
+}
+
+nav > a:hover {
+    color: #ffffff;
+    background-color: #221c1bce;
+}
+
+#paragraaf {
+    background-color: #daa52073;
+    padding: 10px 5px;
+}
+
+#paragraaf > p {
+    margin-top: 0;
+}
+
+#school, #work {
+    background-color: #daa52073;
+}
+
+td {
+    min-width: 120px;
+}
+
+#school, #work {
+    margin: auto;
+    width: 100%;
+    border-spacing: 10px;
+}
+
+#contact {
+    margin: auto;
+    border-spacing: 10px;
+}
+
+fieldset {
+    background-color: #daa52073;
+    margin: auto;
+}
+
+input {
+    padding: 4px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    font-size: medium;
+    padding: 10px;
+}
+
+button:active {
+    color: #ffffff;
+    background-color: #221c1bce;
+}
