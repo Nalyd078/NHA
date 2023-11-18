@@ -1,0 +1,16 @@
+.navbar {
+    padding: 15px;
+}
+
+.mt-5 {
+    margin-top: 15px!important;
+}
+
+.fs-3 {
+    margin-top: 15px;
+}
+
+img {
+    margin-bottom: 10px;
+    aspect-ratio: 1/0.75;
+}
