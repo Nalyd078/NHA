@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Les 22</title>
+    </head>
+    <body>
+        <header style="background-color: cadetblue; height: 175px;"></header>
+        <div id="slider">
+            <img src="img/jquery1.jpg" alt="Afbeelding van het logo van Jquery">
+            <img src="img/jquery2.jpg" alt="Afbeelding van het logo van Jquery">
+        </div>
+        <footer style="background-color: cadetblue; height: 125px;"></footer>
+    <script>
+        $(document).ready(function(){
+            var currentIndex = 0;
+            var images = $('#slider img');
+            var imageAmount = images.length;
+
+            images.eq(currentIndex).show();
+            
+            function nextImage() {
+                images.eq(currentIndex).hide();
+                currentIndex = (currentIndex + 1) % imageAmount;
+                images.eq(currentIndex).show();
+            }
+            setInterval(nextImage, 4000);
+        });       
+    </script>
+    </body>
+</html>
