@@ -12,6 +12,7 @@
             <img src="img/jquery1.jpg" alt="Afbeelding van het logo van Jquery">
             <img src="img/jquery2.jpg" alt="Afbeelding van het logo van Jquery">
         </div>
+        <p style="text-align: center;"><b>Voorbeeld van een simpele JQuery picture slider</b></p>
         <footer style="background-color: cadetblue; height: 125px;"></footer>
     <script>
         $(document).ready(function(){
@@ -20,7 +21,7 @@
             var imageAmount = images.length;
 
             images.eq(currentIndex).show();
-            
+
             function nextImage() {
                 images.eq(currentIndex).hide();
                 currentIndex = (currentIndex + 1) % imageAmount;
