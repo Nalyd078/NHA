@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Rekeningen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mijn Rekeningen</h1>
+    <div id="totaalBedrag"></div>
+    <div id="rekeningToevoegen">
+        <h2>Voeg een Rekening Toe</h2>
+        <input type="text" id="onderwerpInput" placeholder="Rekening onderwerp">
+        <input type="number" id="bedragInput" placeholder="€ Bedrag">
+        <input type="date" id="datumInput">
+        <button id="toevoegenBtn">Toevoegen</button>
+        <button id="schakelLijstenBtn">Inkomsten</button>
+    </div>
+
+    <!-- Eerste lijst -->
+    <div id="rekeningenLijst1">
+        <h2>Vaste rekeningen</h2>
+        <div id="rekeningenContainer1"></div> <!-- Container voor rekening-items -->
+    </div>
+
+    <!-- Tweede lijst (initialiseer als verborgen) -->
+    <div id="rekeningenLijst2" style="display: none;">
+        <h2>Inkomsten</h2>
+        <!-- Hier worden rekeningen weergegeven voor lijst 2 -->
+    </div>
+    <div id="rekeningenLijst"></div>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Voeg hier de JavaScript-code toe voor het schakelen tussen lijsten
+        // ...
+    </script>
+</body>
+</html>
